@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/spectacle-shop/static/css/main.04f9264f.chunk.css",
-    "main.js": "/spectacle-shop/static/js/main.635edbde.chunk.js",
-    "main.js.map": "/spectacle-shop/static/js/main.635edbde.chunk.js.map",
+    "main.js": "/spectacle-shop/static/js/main.f005eff8.chunk.js",
+    "main.js.map": "/spectacle-shop/static/js/main.f005eff8.chunk.js.map",
     "runtime-main.js": "/spectacle-shop/static/js/runtime-main.2093d4d4.js",
     "runtime-main.js.map": "/spectacle-shop/static/js/runtime-main.2093d4d4.js.map",
     "static/js/2.9152f193.chunk.js": "/spectacle-shop/static/js/2.9152f193.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.2093d4d4.js",
     "static/js/2.9152f193.chunk.js",
     "static/css/main.04f9264f.chunk.css",
-    "static/js/main.635edbde.chunk.js"
+    "static/js/main.f005eff8.chunk.js"
   ]
 }
