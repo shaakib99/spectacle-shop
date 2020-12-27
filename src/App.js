@@ -19,10 +19,10 @@ function App() {
       <Router>
         <Switch>
           <Route path={process.env.PUBLIC_URL + '/'} exact component={Home}/>
-          <Route path='/browse' exact component={Browse}/>
-          <Route path='/product/:productid' exact component={Details}/>
-          <Route path='/information/' exact component={Information}/>
-          <Route path='/order-complete/:tranid' exact component={Ordercomplete}/>
+          <Route path={process.env.PUBLIC_URL + '/browse'} exact component={Browse}/>
+          <Route path={process.env.PUBLIC_URL + '/product/:productid'} exact component={Details}/>
+          <Route path={process.env.PUBLIC_URL + '/information/'} exact component={Information}/>
+          <Route path={process.env.PUBLIC_URL + '/order-complete/:tranid'} exact component={Ordercomplete}/>
           <Route component={Notfound}/>
         </Switch>
       </Router>
