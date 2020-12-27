@@ -24,7 +24,7 @@ const Ordercomplete = (props)=>{
         couldNotCompleteRequest: 'Could not complete request',
     }
     const handleOnClick = (e)=>{
-        gsap.to(e.target,{scale:0, duration:0.2, ease:'expo.out', onComplete:()=>history.push('/browse')})
+        gsap.to(e.target,{scale:0, duration:0.2, ease:'expo.out', onComplete:()=>history.push('/spectacle-shop/browse')})
     }
     const setState =(message, paymentStatus, loadingStatus) => {
         setMsg(message)
