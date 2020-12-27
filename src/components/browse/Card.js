@@ -6,7 +6,7 @@ const Card = (props) => {
     const link = 'product/'+props.cardData.product_id
     const history = useHistory()
     const handleOnClick = () => {
-        gsap.to('.card-container',{ scale:0, duration:0.1, ease:'expo.out', onComplete:()=> history.replace(link,false) })
+        gsap.to('.card-container',{ scale:0, duration:0.1, ease:'expo.out', onComplete:()=> history.push(link,false) })
     }
     React.useEffect(()=>{
         gsap.to('.card-container',{ scale:1, duration:0.1, ease:'expo.out' })
