@@ -30,7 +30,10 @@ const Information = (props) => {
        all[index].checked = true
        setSelectedDelivery(index)
     }
-    const onSuccessData = (data)=> window.location.href = data.GatewayPageURL
+    const onSuccessData = (data)=> {
+        props.deleteData()
+        window.location.href = data.GatewayPageURL
+    }
     const onErrorData = (data) => console.log(data)
     const onOrderButtonClick = (e)=>{
         const allOk = dataVerified(fields, setErrors)
