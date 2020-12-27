@@ -3,7 +3,7 @@ import React from 'react'
 import {useHistory} from 'react-router-dom'
 import '../../css/browse/Card.css'
 const Card = (props) => {
-    const link = '/product/'+props.cardData.product_id
+    const link = 'product/'+props.cardData.product_id
     const history = useHistory()
     const handleOnClick = () => {
         gsap.to('.card-container',{ scale:0, duration:0.1, ease:'expo.out', onComplete:()=> history.replace(link,false) })

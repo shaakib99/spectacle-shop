@@ -18,7 +18,7 @@ const Heading = (props) => {
         timeline.add(animateImage)
     },[])
     const handleButtonClick = () => {
-        gsap.to('#browse-button',{scale:0, duration:0.1,ease:'expo.out', onComplete:()=> history.push('/browse')})
+        gsap.to('#browse-button',{scale:0, duration:0.1,ease:'expo.out', onComplete:()=> history.push('spectacle-shop/browse')})
 
     }
     return (
