@@ -1,0 +1,33 @@
+#cart-icon-container{
+    position: fixed;
+    height: 4rem;
+    width: 4rem;
+    bottom: 2%;
+    right: 2%;
+    background-color: #FF9900;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 1px #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#cart-icon-container img{
+    height: 2rem;
+    width: 2rem;
+}
+#cart-icon-container span{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    bottom: 3.2rem;
+    left: 2.1rem; 
+    border: 1px solid #d3d3d3;
+    color: #323232;
+}

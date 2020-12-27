@@ -1,0 +1,35 @@
+#cart-layout-container{
+    max-height: 22rem;
+    overflow-y: auto;
+    position: absolute;
+    background-color: white;
+    bottom: 4.5rem;
+    right: 0rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px 1px #9D9D9D;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    transition: 0.2s;
+}
+.delete-icon{
+    background-color: rgb(240, 240, 240);
+    border: 1px solid #d3d3d3;
+}
+.delete-icon:hover{
+    box-shadow: 2px 2px 5px 1px #9d9d9d;
+}
+.cart-items-container{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.5rem 0 0.5rem 0;
+    border: 1px solid #d3d3d3;
+    border-radius: 0.2rem;
+    transition: 0.2s;
+}
+.cart-items-container p{
+    font-size: 0.8rem;
+    margin: 0 0.5rem 0 0.5rem;
+    
+}

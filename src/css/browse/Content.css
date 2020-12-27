@@ -1,0 +1,25 @@
+#browse-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#search-place{
+    height: 6rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#browse-items{
+    width: 70%;
+    display: flex;
+    align-self: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    transition: 0.2s;
+}
+@media screen and (max-width: 650px){
+    #browse-items{
+        justify-content: center;
+        padding: 0.5rem 0 0 0;
+    }
+}
