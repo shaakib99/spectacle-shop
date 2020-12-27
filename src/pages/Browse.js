@@ -33,7 +33,6 @@ const Browse = (props) => {
     }
     const onError = (data)=> console.log(data)
     React.useEffect(()=>{
-        console.log(page)
         const url = GET_LIST + page
         fetchData(url,onSuccessData,onError,'GET',null)
     },[page])
@@ -49,7 +48,6 @@ const Browse = (props) => {
     const handleScroll = (e)=> {
         const x = document.getElementById('browse-items')
         const y = document.getElementById('browse-container')
-        console.log('after', y.offsetHeight, x.offsetHeight,y.scrollTop)
         if(y.scrollTop + y.offsetHeight >= x.offsetHeight){
             y.removeEventListener('scroll', handleScroll)
             setPage(page + 1)

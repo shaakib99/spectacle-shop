@@ -18,7 +18,7 @@ function App() {
     <Provider store={store}>
       <Router>
         <Switch>
-          <Route path='/' exact component={Home}/>
+          <Route path={process.env.PUBLIC_URL + '/'} exact component={Home}/>
           <Route path='/browse' exact component={Browse}/>
           <Route path='/product/:productid' exact component={Details}/>
           <Route path='/information/' exact component={Information}/>
