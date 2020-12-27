@@ -36,7 +36,7 @@ const Information = (props) => {
         const allOk = dataVerified(fields, setErrors)
         if(allOk && deliveryFiled[selectedDelivery].title === 'cash'){
             props.deleteData()
-            gsap.to(e.target, {scale:0, duration: 0.2, ease:'expo.out', onComplete:()=> history.push('/order-complete/done')})
+            gsap.to(e.target, {scale:0, duration: 0.2, ease:'expo.out', onComplete:()=> history.push('/spectacle-shop/order-complete/done')})
         }else if(allOk && deliveryFiled[selectedDelivery].title === 'ssl'){
             const data = {total: findTotalAmount(props.cartData)}
             fetchData(SSL_COMRZ,onSuccessData,onErrorData,'POST', JSON.stringify(data))

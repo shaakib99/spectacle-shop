@@ -21,7 +21,7 @@ function App() {
           <Route path={process.env.PUBLIC_URL + '/'} exact component={Home}/>
           <Route path={process.env.PUBLIC_URL + '/browse'} exact component={Browse}/>
           <Route path={process.env.PUBLIC_URL + '/product/:productid'} exact component={Details}/>
-          <Route path={process.env.PUBLIC_URL + '/information/'} exact component={Information}/>
+          <Route path={process.env.PUBLIC_URL + '/information'} exact component={Information}/>
           <Route path={process.env.PUBLIC_URL + '/order-complete/:tranid'} exact component={Ordercomplete}/>
           <Route component={Notfound}/>
         </Switch>
