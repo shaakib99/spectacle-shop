@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/spectacle-shop/static/css/main.04f9264f.chunk.css",
+    "main.js": "/spectacle-shop/static/js/main.1bb5c9e3.chunk.js",
+    "main.js.map": "/spectacle-shop/static/js/main.1bb5c9e3.chunk.js.map",
+    "runtime-main.js": "/spectacle-shop/static/js/runtime-main.2093d4d4.js",
+    "runtime-main.js.map": "/spectacle-shop/static/js/runtime-main.2093d4d4.js.map",
+    "static/js/2.9152f193.chunk.js": "/spectacle-shop/static/js/2.9152f193.chunk.js",
+    "static/js/2.9152f193.chunk.js.map": "/spectacle-shop/static/js/2.9152f193.chunk.js.map",
+    "static/js/3.a05394dc.chunk.js": "/spectacle-shop/static/js/3.a05394dc.chunk.js",
+    "static/js/3.a05394dc.chunk.js.map": "/spectacle-shop/static/js/3.a05394dc.chunk.js.map",
+    "index.html": "/spectacle-shop/index.html",
+    "static/css/main.04f9264f.chunk.css.map": "/spectacle-shop/static/css/main.04f9264f.chunk.css.map",
+    "static/js/2.9152f193.chunk.js.LICENSE.txt": "/spectacle-shop/static/js/2.9152f193.chunk.js.LICENSE.txt",
+    "static/media/amico.1c75b379.svg": "/spectacle-shop/static/media/amico.1c75b379.svg",
+    "static/media/cart.e3c885a7.svg": "/spectacle-shop/static/media/cart.e3c885a7.svg",
+    "static/media/circle.a9d25873.svg": "/spectacle-shop/static/media/circle.a9d25873.svg",
+    "static/media/delete.04516e7e.svg": "/spectacle-shop/static/media/delete.04516e7e.svg",
+    "static/media/eyeglass.9bc81714.svg": "/spectacle-shop/static/media/eyeglass.9bc81714.svg",
+    "static/media/notfound.b2cdedfb.svg": "/spectacle-shop/static/media/notfound.b2cdedfb.svg",
+    "static/media/order-complete.9145c2d2.svg": "/spectacle-shop/static/media/order-complete.9145c2d2.svg",
+    "static/media/search.1c131e1a.svg": "/spectacle-shop/static/media/search.1c131e1a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2093d4d4.js",
+    "static/js/2.9152f193.chunk.js",
+    "static/css/main.04f9264f.chunk.css",
+    "static/js/main.1bb5c9e3.chunk.js"
+  ]
+}
