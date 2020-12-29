@@ -1,0 +1,6 @@
+const BASE_DIR = 'https://wahidsakib.pythonanywhere.com/api/'
+export const GET_LIST = BASE_DIR+'product-list/'
+export const GET_DETAIL = BASE_DIR+'product-detail/'
+export const SEARCH_PRODUCT = BASE_DIR+'product-search/'
+export const SSL_COMRZ = BASE_DIR + 'sslcommerz/'
+export const GET_TRAN_DETAIL = BASE_DIR + 'sslcommerz/tranid/'

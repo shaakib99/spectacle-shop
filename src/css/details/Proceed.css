@@ -1,0 +1,23 @@
+#proceed-button-container{
+    width: 80%;
+    display: flex;
+    align-self: center;
+    /* position: absolute; */
+    bottom: 2%;
+    background-color: #FF9900;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: 'poppins';
+    box-shadow: 2px 2px 5px 1px #9D9D9D;
+    cursor: pointer;
+}
+@media screen and (max-width){
+    #proceed-button-container{
+        width: 100%;
+    }
+}

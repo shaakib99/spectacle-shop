@@ -1,0 +1,18 @@
+#home-container{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90.35deg, #FBFBFB 0.27%, rgba(255, 255, 255, 0) 99.66%);
+    display: flex;
+}
+#home-left{
+    width: 40%;
+    margin: 8% 0% 10% 10%;
+}
+#home-right{
+    width: 60%;
+}
+@media screen and (max-width: 650px){
+    #home-right{
+        display: none;
+    }
+}

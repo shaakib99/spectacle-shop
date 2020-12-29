@@ -1,0 +1,31 @@
+#related-product-container{
+    width: 100%;
+    /* padding: 2rem; */
+    /* display: flex; */
+}
+#related-product-title{
+    font-size: 1.5rem;
+    min-width: 12rem;
+    margin: 0.5rem 1rem 0.5rem 3rem;
+    color: #323232;
+}
+.related-product-card{
+    display: flex;
+    margin: 0.5rem 2rem 0.5rem 2rem;
+    flex-wrap: wrap;
+}
+#related-product-title-container{
+    display: flex;
+    align-items: center;
+}
+#related-product-hr{
+    width: 70%;
+    height: 1px;
+    background-color: #979797;
+}
+@media screen and (max-width: 650px){
+    #related-product-hr{
+        display: none;
+    }
+    
+}

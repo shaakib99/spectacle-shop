@@ -1,0 +1,19 @@
+#search-container{
+    width: 40%;
+    height: 1.5rem;
+    border: 1px solid #838282;
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+#search-container input{
+    width: 95%;
+    border: none;
+    outline: none;
+    border-right: 1px solid #838282 ;
+    font-family: 'poppins';
+    color: #323232;
+}
+#search-container img{
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+#order-complete-container{
+    width: 100vw;
+    height: 100vh;
+}
+#order-complete-main-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#order-complete-main-container img{
+    width: 20rem;
+    height: 20rem;
+}
+#order-complete-main-container p{
+    font-size: 1.2rem;
+    color: #323232;
+}
+#order-complete-main-container button{
+    width: 20%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: #FF9900;
+    color: white;
+    font-family: 'poppins';
+    margin-top: 4rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+@media screen and (max-width:650px){
+    #order-complete-main-container button{
+        width: 60%;
+    }
+}

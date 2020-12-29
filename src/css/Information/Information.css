@@ -1,0 +1,29 @@
+#information-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 0 0;
+    color: #323232;
+}
+#information-title{
+    font-size: 1.5rem;
+}
+#information-order-button{
+    width: 40%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: #FF9900;
+    color: white;
+    font-family: 'poppins';
+    box-shadow: 2px 2px 5px 1px #9D9D9D;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width:650px){
+    #information-order-button{
+        width: 70%;
+    }
+}
