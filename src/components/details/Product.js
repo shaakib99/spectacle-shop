@@ -33,6 +33,7 @@ const Product = (props) => {
                 image: props.data.image,
                 price: props.data.price
             }
+            console.log('obj=> ', obj)
             props.saveData(obj)
             setProductCount(productCount + 1)
         }

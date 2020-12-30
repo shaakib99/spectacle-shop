@@ -9,6 +9,7 @@ import {GET_DETAIL} from '../api'
 import {fetchData} from '../utils/Helper'
 const Details = (props) => {
     const {productid} = useParams()
+    console.log('product id=>',productid)
     const [productInfo, setProductInfo] = React.useState({})
     const [relatedProduct,setRelatedProduct] = React.useState([])
     const [isLoading, setLoading] = React.useState(true)
