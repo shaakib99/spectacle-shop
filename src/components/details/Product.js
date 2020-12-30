@@ -3,7 +3,6 @@ import Addtocart from './Addtocart'
 import '../../css/details/Product.css'
 const Product = (props) => {
     const findProductCount = (data, cartData) => {
-        console.log(data)
         if(!isEmpty(data)){
             const findIndex = cartData.findIndex((d)=> d.id === data.product_id && d.color === data.colors[selectedIndex])
             return findIndex === -1 ? -1 : cartData[findIndex].count
@@ -27,7 +26,7 @@ const Product = (props) => {
     const onPlusPressed = () => {
         if(productCount !== 5 && findTotalItem(props.cartData) !== 5){
             const obj = {
-                id: props.data.id,
+                id: props.data.product_id,
                 color: props.data.colors[selectedIndex],
                 title: props.data.title,
                 count: productCount + 1,
@@ -41,7 +40,7 @@ const Product = (props) => {
     const onMinusPressed = () => {
         if(productCount > 0 ){
             const obj = {
-                id: props.data.id,
+                id: props.data.product_id,
                 color: props.data.colors[selectedIndex],
                 title: props.data.title,
                 count: productCount - 1,
